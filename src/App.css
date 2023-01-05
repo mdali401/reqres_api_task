@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(177, 218, 177);
+}
+
+.App {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  gap: 3em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+#usercard {
+  width: 30%;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 0.5em;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+#usercard > img {
+  object-fit: contain;
+  display: block;
+  box-shadow: 10px 10px 10px gray;
+}
+
+#usercard > img {
+  object-fit: contain;
+  display: block;
+}
+
+#usercard > h2 {
+  color: darkred;
+  text-align: center;
+}
+
+p#email {
+  font-size: 1.2rem;
+}
+p#name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container_buttons {
+  height: fit-content;
+  max-height: 45vh;
+  padding: 0.4em;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.container_buttons::-webkit-scrollbar {
+  width: 2px;
+}
+
+
+
+.container > button {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: chocolate;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px gray;
+}
+
+.container > button:hover {
+  background-color: bisque;
+  color: darkred;
+  transition: ease-in 0.2s;
+}
+
+@media screen and (max-width: 700px) {
+  .container_buttons {
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+}
