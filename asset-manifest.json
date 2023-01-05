@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reqres_api_task/static/css/main.7bc1464b.css",
+    "main.js": "/reqres_api_task/static/js/main.80932ac0.js",
+    "index.html": "/reqres_api_task/index.html",
+    "main.7bc1464b.css.map": "/reqres_api_task/static/css/main.7bc1464b.css.map",
+    "main.80932ac0.js.map": "/reqres_api_task/static/js/main.80932ac0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bc1464b.css",
+    "static/js/main.80932ac0.js"
+  ]
+}
